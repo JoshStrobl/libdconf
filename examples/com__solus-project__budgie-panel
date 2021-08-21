@@ -1,0 +1,131 @@
+[/]
+dark-theme=true
+layout='solus-fortitude'
+migration-level=1
+panels=['8bba3bf8-0dae-11eb-ad1d-e0d55e200f1c']
+
+[applets/{7a6ad2d4-a770-11eb-a9a4-0242de3bcd68}]
+alignment='end'
+name='Lock Keys Indicator'
+position=3
+
+[applets/{8bbab560-0dae-11eb-ad1d-e0d55e200f1c}]
+alignment='start'
+name='Budgie Menu'
+position=0
+
+[applets/{8bbd5acc-0dae-11eb-ad1d-e0d55e200f1c}]
+alignment='start'
+name='Icon Task List'
+position=1
+
+[applets/{8bc44bc0-0dae-11eb-ad1d-e0d55e200f1c}]
+alignment='end'
+name='Notifications'
+position=4
+
+[applets/{8bc75644-0dae-11eb-ad1d-e0d55e200f1c}]
+alignment='end'
+name='Status Indicator'
+position=5
+
+[applets/{8bc8e928-0dae-11eb-ad1d-e0d55e200f1c}]
+alignment='end'
+name='User Indicator'
+position=6
+
+[applets/{8bc94562-0dae-11eb-ad1d-e0d55e200f1c}]
+alignment='end'
+name='Clock'
+position=7
+
+[applets/{8bc9a034-0dae-11eb-ad1d-e0d55e200f1c}]
+alignment='end'
+name='Raven Trigger'
+position=8
+
+[applets/{b3734090-a17e-11eb-a87d-e0d55e200f1c}]
+alignment='end'
+name='Screenshot'
+position=1
+
+[applets/{da699038-2f45-11eb-b2c4-e0d55e200f1c}]
+alignment='end'
+name='Night Light'
+position=2
+
+[applets/{e41de358-103d-11eb-b26a-e0d55e200f1c}]
+alignment='start'
+name='Budgie Menu'
+position=0
+
+[applets/{e420825c-103d-11eb-b26a-e0d55e200f1c}]
+alignment='start'
+name='Icon Task List'
+position=1
+
+[applets/{e4267298-103d-11eb-b26a-e0d55e200f1c}]
+alignment='end'
+name='System Tray'
+position=0
+
+[applets/{e42762ac-103d-11eb-b26a-e0d55e200f1c}]
+alignment='end'
+name='Notifications'
+position=1
+
+[applets/{e42a5e62-103d-11eb-b26a-e0d55e200f1c}]
+alignment='end'
+name='Status Indicator'
+position=2
+
+[applets/{e42bd3e6-103d-11eb-b26a-e0d55e200f1c}]
+alignment='end'
+name='User Indicator'
+position=3
+
+[applets/{e42c3eda-103d-11eb-b26a-e0d55e200f1c}]
+alignment='end'
+name='Clock'
+position=4
+
+[applets/{e42c988a-103d-11eb-b26a-e0d55e200f1c}]
+alignment='end'
+name='Raven Trigger'
+position=5
+
+[applets/{feece066-1f25-11eb-a797-e0d55e200f1c}]
+alignment='end'
+name='System Tray'
+position=0
+
+[instance/budgie-menu/{8bbab560-0dae-11eb-ad1d-e0d55e200f1c}]
+menu-icon='start-here-symbolic'
+
+[instance/icon-tasklist/{8bbd5acc-0dae-11eb-ad1d-e0d55e200f1c}]
+only-pinned=false
+pinned-launchers=['org.gnome.Nautilus.desktop', 'element.desktop', 'discord.desktop', 'firefox.desktop', 'io.github.GnomeMpv.desktop', 'org.inkscape.Inkscape.desktop', 'net.lutris.Lutris.desktop', 'lbry-desktop.desktop', 'QOwnNotes.desktop', 'thunderbird.desktop', 'steam.desktop', 'org.gnome.Terminal.desktop', 'vscode-oss.desktop', 'com.spotify.Client.desktop']
+restrict-to-workspace=false
+
+[instance/icon-tasklist/{e420825c-103d-11eb-b26a-e0d55e200f1c}]
+only-pinned=false
+restrict-to-workspace=false
+
+[instance/tray/{feece066-1f25-11eb-a797-e0d55e200f1c}]
+spacing=4
+
+[panels/{8bba3bf8-0dae-11eb-ad1d-e0d55e200f1c}]
+applets=['da699038-2f45-11eb-b2c4-e0d55e200f1c', '8bc9a034-0dae-11eb-ad1d-e0d55e200f1c', 'feece066-1f25-11eb-a797-e0d55e200f1c', '8bbab560-0dae-11eb-ad1d-e0d55e200f1c', '8bc8e928-0dae-11eb-ad1d-e0d55e200f1c', '8bc75644-0dae-11eb-ad1d-e0d55e200f1c', '7a6ad2d4-a770-11eb-a9a4-0242de3bcd68', 'b3734090-a17e-11eb-a87d-e0d55e200f1c', '8bc44bc0-0dae-11eb-ad1d-e0d55e200f1c', '8bbd5acc-0dae-11eb-ad1d-e0d55e200f1c', '8bc94562-0dae-11eb-ad1d-e0d55e200f1c']
+autohide='none'
+dock-mode=false
+enable-shadow=true
+location='bottom'
+size=39
+theme-regions=true
+transparency='none'
+
+[panels/{e41d503c-103d-11eb-b26a-e0d55e200f1c}]
+applets=['e42a5e62-103d-11eb-b26a-e0d55e200f1c', 'e42c988a-103d-11eb-b26a-e0d55e200f1c', 'e42c3eda-103d-11eb-b26a-e0d55e200f1c', 'e420825c-103d-11eb-b26a-e0d55e200f1c', 'e4267298-103d-11eb-b26a-e0d55e200f1c', 'e42762ac-103d-11eb-b26a-e0d55e200f1c', 'e41de358-103d-11eb-b26a-e0d55e200f1c', 'e42bd3e6-103d-11eb-b26a-e0d55e200f1c']
+location='bottom'
+size=39
+transparency='none'
