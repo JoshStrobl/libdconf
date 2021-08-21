@@ -1,6 +1,6 @@
 # libdconf
 
-[![godoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=for-the-badge)](https://godoc.org/github.com/JoshStrobl/libdconf)
+[![pkg.go.dev](https://img.shields.io/badge/pkg.go.dev-reference-blue.svg?style=for-the-badge)](https://pkg.go.dev/github.com/JoshStrobl/libdconf)
 [![goreportcard](https://img.shields.io/badge/goreportcard-A+-green.svg?style=for-the-badge)](https://goreportcard.com/report/github.com/JoshStrobl/libdconf)
 ![License](https://img.shields.io/github/license/JoshStrobl/libdconf?style=for-the-badge)
 [![Liberapay patrons](https://img.shields.io/liberapay/patrons/joshuastrobl?label=liberapay&style=for-the-badge)](https://liberapay.com/joshuastrobl)
